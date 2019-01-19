@@ -10,4 +10,8 @@
 
 @implementation QuestionGenerator
 
+// generate random question
+// whatever the return will be printed on the label
+// you must print: player 1:
+
 @end

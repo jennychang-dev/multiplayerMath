@@ -15,6 +15,9 @@
 		B255421421F2F65C00368808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B255421321F2F65C00368808 /* main.m */; };
 		B255421E21F2F65C00368808 /* MultiplayerMathsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B255421D21F2F65C00368808 /* MultiplayerMathsTests.m */; };
 		B255422921F2F65C00368808 /* MultiplayerMathsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B255422821F2F65C00368808 /* MultiplayerMathsUITests.m */; };
+		B296BB4721F303EF00BE78F2 /* QuestionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B296BB4621F303EF00BE78F2 /* QuestionGenerator.m */; };
+		B296BB4A21F3044200BE78F2 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B296BB4921F3044200BE78F2 /* Player.m */; };
+		B296BB4D21F3084B00BE78F2 /* GameControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B296BB4C21F3084B00BE78F2 /* GameControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B255422421F2F65C00368808 /* MultiplayerMathsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiplayerMathsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B255422821F2F65C00368808 /* MultiplayerMathsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplayerMathsUITests.m; sourceTree = "<group>"; };
 		B255422A21F2F65C00368808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B296BB4521F303EF00BE78F2 /* QuestionGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionGenerator.h; sourceTree = "<group>"; };
+		B296BB4621F303EF00BE78F2 /* QuestionGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionGenerator.m; sourceTree = "<group>"; };
+		B296BB4821F3044200BE78F2 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B296BB4921F3044200BE78F2 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B296BB4B21F3084B00BE78F2 /* GameControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameControl.h; sourceTree = "<group>"; };
+		B296BB4C21F3084B00BE78F2 /* GameControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +115,12 @@
 				B255420721F2F65C00368808 /* ViewController.h */,
 				B255420821F2F65C00368808 /* ViewController.m */,
 				B255420A21F2F65C00368808 /* Main.storyboard */,
+				B296BB4821F3044200BE78F2 /* Player.h */,
+				B296BB4921F3044200BE78F2 /* Player.m */,
+				B296BB4B21F3084B00BE78F2 /* GameControl.h */,
+				B296BB4C21F3084B00BE78F2 /* GameControl.m */,
+				B296BB4521F303EF00BE78F2 /* QuestionGenerator.h */,
+				B296BB4621F303EF00BE78F2 /* QuestionGenerator.m */,
 				B255420D21F2F65C00368808 /* Assets.xcassets */,
 				B255420F21F2F65C00368808 /* LaunchScreen.storyboard */,
 				B255421221F2F65C00368808 /* Info.plist */,
@@ -263,8 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B255420921F2F65C00368808 /* ViewController.m in Sources */,
+				B296BB4721F303EF00BE78F2 /* QuestionGenerator.m in Sources */,
 				B255421421F2F65C00368808 /* main.m in Sources */,
 				B255420621F2F65C00368808 /* AppDelegate.m in Sources */,
+				B296BB4A21F3044200BE78F2 /* Player.m in Sources */,
+				B296BB4D21F3084B00BE78F2 /* GameControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
